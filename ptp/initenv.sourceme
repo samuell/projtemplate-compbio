@@ -1,4 +1,0 @@
-#!/bin/bash -l
-newpath=$(pwd)/lib/:$PYTHONPATH
-echo "PYTHONPATH is now: "$newpath
-export PYTHONPATH=$newpath
